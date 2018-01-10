@@ -1,0 +1,8 @@
+Name of Task: Download and set up XAMPP
+Estimated no. of hrs: 45 mins
+Actual time Spent: 1.5 hrs
+Notes: 
+Issues:
+Default port 3306 already in use causing error with mysql starting up
+Once port 3306 was changed to port 3307 in mysql the configuration for php myadmin also had to be updated 
+to allow phpMyAdmin to start. Took longer than expected because of troubleshooting.
