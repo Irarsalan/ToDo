@@ -6,3 +6,17 @@ Issues:
 Default port 3306 already in use causing error with mysql starting up
 Once port 3306 was changed to port 3307 in mysql the configuration for php myadmin also had to be updated 
 to allow phpMyAdmin to start. Took longer than expected because of troubleshooting.
+
+Name of Task: Create Database with first table and create main page 
+Estimated no. of hrs: 1.5 hrs
+Actual Time Spent: 1.75 hrs
+Notes:
+Look up syntax for html in order to create main page
+Issues: 
+Minor troubles with column values in tables
+
+Name of Task: Create table in php and display data from table to check
+Estimated no. of hrs: .5 hrs
+Actual Time Spent:
+Notes:
+Issues:
