@@ -1,17 +1,22 @@
+<?php  
+include('test.php');
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
-		<title> TODO Application</title> 
+	<title>ToDo Application</title>
 </head>
-
 <body>
-	<h1 style= "text-align: center;"> TODO Application </h1> 
+	<div class="heading">
+		<h1 style= "text-align: center;"> TODO Application </h1> 
+	</div>
+	
+	
+		<form method="post" action="test.php">
+			<input type="text" name="task" >
+			<input type= "submit" name="submit" value ="Add New Task"/>
+		
+		</form>
 
-		<div style= "text-align: center;> 
-	<form method= "POST" action="index.php"> 
-		<input type="text" name="task">
-		<input type="submit" value="Add New Task">
-	</form>
-		</div>
 </body>
 </html>
