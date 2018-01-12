@@ -7,9 +7,9 @@ include('test.php');
 	<title>ToDo Application</title>
 </head>
 <body>
-	<div class="heading">
+	
 		<h1 style= "text-align: center;"> TODO Application </h1> 
-	</div>
+	
 	
 	
 		<form method="post" action="test.php">
