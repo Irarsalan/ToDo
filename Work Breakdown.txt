@@ -15,8 +15,11 @@ Look up syntax for html in order to create main page
 Issues: 
 Minor troubles with column values in tables
 
-Name of Task: Create table in php and display data from table to check
+Name of Task: Clone Git Repository into htdocs folder of xampp
 Estimated no. of hrs: .5 hrs
-Actual Time Spent:
+Actual Time Spent:.75 hrs
 Notes:
+Did not clone the files from repository after creating it and had already created php files
+First needed to go back and clone the repository to correct folder in htdocs then re-add 
+test.php with code to connect to the database and added the values to the mysql database
 Issues:
