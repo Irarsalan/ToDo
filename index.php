@@ -21,6 +21,8 @@ include('test.php');
 			<label> Enter Due Date (mm/dd/yyyy)</label>
 			<input type= "text" name= "ddate"> <br>
 			
+			<label> Enter Status: pending, started, done, or late</label>
+			<input type = "text" name = "status"> <br>
 			
 			<input type= "submit" name="submit" value ="Add New Task"/>
 		
@@ -34,6 +36,7 @@ include('test.php');
 			<tr>
 				<th>Task</th>
 				<th>Due Date</th>
+				<th>Status of Task</th>
 				<th>Delete</th>
 			</tr>
 			
@@ -45,6 +48,7 @@ include('test.php');
 						<tr>
 							<td><?php echo $data['task']; ?></td>
 							<td><?php echo $data['ddate'];?></td>
+							<td><?php echo $data['status'];?></td>
 							<td><a href= "test.php?deletetask=<?php echo $data['taskid'];?>">Delete</a></td>
 						</tr>
 				<?php
