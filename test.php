@@ -5,7 +5,8 @@
 	{
 			$task = $_POST['task'];
 			$ddate = $_POST['ddate'];
-			$sql = "INSERT INTO tasks (task,ddate) VALUES ('$task', '$ddate')";
+			$status = $_POST['status'];
+			$sql = "INSERT INTO tasks (task,ddate,status) VALUES ('$task', '$ddate','$status')";
 			mysqli_query($db, $sql);
 			header('location: index.php');
 	
