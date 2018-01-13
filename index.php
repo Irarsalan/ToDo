@@ -30,7 +30,8 @@ include('test.php');
 		<br>
 		<br>
 		<br>
-		<label> List of Tasks</label>
+		<label> List of All Tasks</label>
+		<br>
 		<table border="1">
 		
 			<tr>
@@ -42,8 +43,14 @@ include('test.php');
 			
 			<?php	
 				$taskinfo = mysqli_query($db, "SELECT * FROM tasks");
+				$countAll = 0;
+				$countPend = 0;
+				$countStart = 0;
+				$countComp = 0;
+				$countLate = 0;
 				while ($data = mysqli_fetch_assoc($taskinfo))
 				{
+					$statusref = $data['status'];
 					?>
 						<tr>
 							<td><?php echo $data['task']; ?></td>
@@ -52,9 +59,35 @@ include('test.php');
 							<td><a href= "test.php?deletetask=<?php echo $data['taskid'];?>">Delete</a></td>
 						</tr>
 				<?php
+				$countAll++;
+				if ($statusref == "pending" || $statusref == NULL)
+					{
+						$countPend++;
+					}
+				else if ($statusref == "started")
+					{
+						$countStart++;
+					}
+				else if ($statusref == "done")
+					{
+						$countComp++;
+					}	
+				else if ($statusref == "late")
+					{
+						$countLate++;
+					}	
 				}
-			?>
+				?>
 	
 		</table>
+			<?php 
+			echo nl2br ("\n");
+			echo nl2br ("Number of Total Tasks: $countAll \n");
+			echo nl2br ("\n");
+			echo nl2br ("Number of Pending Tasks: $countPend \n");
+			echo nl2br ("Number of Started Tasks: $countStart \n");
+			echo nl2br ("Number of Completed Tasks: $countComp \n");
+			echo nl2br ("Number of Late Tasks: $countLate \n");
+			?>
 </body>
 </html>
