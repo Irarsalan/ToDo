@@ -89,5 +89,13 @@ include('test.php');
 			echo nl2br ("Number of Completed Tasks: $countComp \n");
 			echo nl2br ("Number of Late Tasks: $countLate \n");
 			?>
+<br>
+<a href= "pending.php">See All Pending Tasks</a>
+<br>
+<a href= "started.php">See All Started Tasks</a>
+<br>
+<a href= "done.php">See All Completed Tasks</a>
+<br>
+<a href= "late.php">See All Late Tasks</a>
 </body>
 </html>
