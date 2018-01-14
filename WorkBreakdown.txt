@@ -36,6 +36,35 @@ Had some trouble figuring out how to create a delete button without using input 
 
 Name of Task: Give status for each of the tasks
 Estimated no. of hrs: 1.5
-Actual Time Spent: tbd
+Actual Time Spent: 45 mins
 Notes:
-Figure out how to put tasks for each status in separate tables, use taskid from task table as foreign key for possible new tables.
+Added status to the tasks table in the database and on main page added field for user to enter status
+
+Name of Task: Display counts of total tasks on main page
+Estimated no. of hrs: 1
+Actual Time Spent 1.25 hrs
+Notes: Look up how to added counter variables in php 
+and display them under the table
+Issues:
+Syntax errors and formatting took up a bit of time
+
+Name of Task: Create new pages to take user to filtered results
+Estimated no. of hrs: 1.5 hrs
+Actual Time Spent: 1 hr
+Notes: 
+create 4 other php files to display tables of data
+Added buttons on main page to take user to filtered results and back button on filtered pages so user could go back to home page
+Issues:
+Had some trouble figuring out how to filter the results using status input, used if statements to compare data
+
+
+
+
+
+
+
+
+
+
+
+
