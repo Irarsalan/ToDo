@@ -1,0 +1,25 @@
+User Manual TODO Application
+Getting started:
+Download and install xampp 
+Configure xampp so that both apache and MySQL are started successfully on xampp control panel
+Clone ToDo app repository or copy all files into htdocs folder on xampp on your computer
+In web browser type in http://localhost/phpmyadmin/
+Create a new database called todoapp and import .sql provided in folder
+This will create the table needed to run the app successfully
+Once the table is created open test.php and in the database connection line enter localhost:"your port #here" xampp default is port 3306
+and enter your phpmyadmin user (default is root) along with the password if you have one
+save the file and open a new browser window
+In the broswer window type in  http://localhost/"name of folder where php files are saved"/index.php 
+ex. http://localhost/Todo/Todo/index.php
+Enter the web address and the main page of the application should appear
+
+To Use:
+1. To add a new task simply fill in the information fields (task, date, adn status) in the form and press submit
+   your new task should be added in the table below
+2. To view all tasks scroll down to find the table with all entered tasks, below the table you will also 
+3. To delete a task navigate to the record on the table in your main page and hit the delete button in that row,
+   if you look back at the table the task should be removed from the table, displaying all tasks that are still entered
+4. To view all the tasks of a specific status (pending, started, completed, late) simply click the corresponding button on the bottom 
+    of the page and you will be led to a new page with a table only displaying the tasks from that category
+5. To come back to the main page from the page with tasks of a specific status click on the back to main page button at the bottom of the table
+    and you will be led back to the main page
