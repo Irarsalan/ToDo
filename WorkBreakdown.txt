@@ -57,6 +57,31 @@ Added buttons on main page to take user to filtered results and back button on f
 Issues:
 Had some trouble figuring out how to filter the results using status input, used if statements to compare data
 
+Name of Task: Complete all required documentaion
+Estimated no. of hrs: 6 hrs
+Actual Time Spent: 8 hrs
+Notes: 
+Research about what all the documents require and what they should look like
+Issues:
+Took a little time to understand what information needed to go into the documents
+Took some time to figure out how to use the software needed to create the diagrams
+
+Name of Task: Complete all required documentaion
+Estimated no. of hrs: 6 hrs
+Actual Time Spent: 8 hrs
+Notes: 
+Research about what all the documents require and what they should look like
+Issues:
+Took a little time to understand what information needed to go into the documents
+Took some time to figure out how to use the software needed to create the diagrams
+
+Name of Task:youtube video demo
+Estimated no. of hrs: 15 mins
+Actual Time Spent: 5 mins
+Notes: 
+Recorded video of screen, while using web app and uploaded the video.
+Link provided at the end of the user manual
+Issues:
 
 
 
